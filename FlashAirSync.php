@@ -4,9 +4,9 @@
   // Flash Air Auto Sync, copies all images from flash air card when it is available
   // and drops them in a local folder.  
    
-  $FlashAirIP  = "192.168.10.71"; // IP address of the flashair card, if the card is running in the default host mode you could just use the hostname ("flashair")
+  $FlashAirIP  = "192.168.1.4"; // IP address of the flashair card, if the card is running in the default host mode you could just use the hostname ("flashair")
   $SyncFrom    = '/DCIM';         // Path on the sdcard to copy from (recursive)
-  $SyncTo      = '/home/boffin/Documents/FlashAir'; // Full path where it will copy to (recursive)
+  $SyncTo      = 'd:/flashair'; // Full path where it will copy to (recursive)
   $TZ          = 'NZST';          // Camera Timezone
     
   // If the camera isn't online, it quits.  If the camera goes offline during the processing, the next time it 
